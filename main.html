@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Charan Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+z8B7+lJ5xJp0h6eWd5F2hY4eW07G5zF5tXy6s/qE/6R3k0lYx0vP5E/p1z5A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <header class="hero" id="home">
+    <nav>
+      <ul class="nav-list">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero-content">
+      <p class="hello">HELLO</p>
+      <h1>I am Charan</h1>
+      <p><span>Web Developer and Cybersecurity enthusiast</span></p>
+      <button class="contact-btn">Download CV</button> <div class="social-icon">
+        <ul class="social-icons">
+          <li>
+            <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">
+              <img src="./logo/link.png" alt="LinkedIn">
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/NotKiyan" target="_blank" rel="noopener noreferrer">
+              <img src="./logo/git.png" alt="github">
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="hero-image">
+      <div class="profile-container">
+        <img src="./logo/profile.png" alt="Profile" class="profile-image">
+      </div>
+    </div>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I'm a 1st-year postgraduate at Amrita Vishwa Vidhyapeetham. My field of Interests are programming and cybersecurity.
+       I love to design websites and build full stack applications using MERN stack preferably. 
+    </p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <div class="project-img">
+          <img src="./logo/etch.png" alt="etch-a-sketch">
+        </div>
+        <div class="project-content"> <h3>Etch a sketch</h3>
+          <p class="project-desc">A pixel drawing board app built using basic JS and DOM manipulation.</p>
+          <p class="tech-used">HTML, CSS, JS</p>
+          <div class="project-links">
+            <a href="https://etch-a-sketch-sigma-six.vercel.app/" target="_blank">
+              <i class="fas fa-external-link-alt"></i> Live Site
+            </a>
+            <a href="https://github.com/NotKiyan/etch-a-sketch" target="_blank">
+              <i class="fab fa-github"></i> Repo Link
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="project-card">
+        <div class="project-img">
+          <img src="./logo/taskap.png" alt="taskapp">
+        </div>
+        <div class="project-content"> <h3>Task app</h3>
+          <p class="project-desc">A simple task management application.</p>
+          <p class="tech-used">HTML, CSS, Reactjs</p>
+          <div class="project-links">
+            <a href="https://taskapp-k6vp.vercel.app/" target="_blank">
+              <i class="fas fa-external-link-alt"></i> Live Site
+            </a>
+            <a href="https://github.com/NotKiyan/taskapp" target="_blank">
+              <i class="fab fa-github"></i> Repo Link
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-container">
+      <div class="skill-category">
+        <h3>Languages</h3>
+        <div class="skill-items">
+          <div class="skill-item">
+            <img src="./logo/python.png" alt="Python" class="skill-icon">
+            <span class="skill-name">Python</span>
+          </div>
+          <div class="skill-item">
+            <img src="./logo/js.png" alt="JavaScript" class="skill-icon">
+            <span class="skill-name">Javascript</span>
+          </div>
+          <div class="skill-item">
+            <img src="./logo/cpp.png" alt="C++" class="skill-icon">
+            <span class="skill-name">C++</span>
+          </div>
+        </div>
+      </div>
+      <div class="skill-category">
+        <h3>Technologies</h3>
+        <div class="skill-items">
+          <div class="skill-item">
+            <img src="./logo/react.png" alt="React" class="skill-icon">
+            <span class="skill-name">React</span>
+          </div>
+          <div class="skill-item">
+            <img src="./logo/fastapi.png" alt="FastAPI" class="skill-icon">
+            <span class="skill-name">FastAPI</span>
+          </div>
+          <div class="skill-item">
+            <img src="./logo/nodejs-icon.png" alt="Node.js" class="skill-icon">
+            <span class="skill-name">Node js</span>
+          </div>
+        </div>
+      </div>
+      <div class="skill-category">
+        <h3>Tools</h3>
+        <div class="skill-items">
+          <div class="skill-item">
+            <img src="./logo/vscode.png" alt="VS Code" class="skill-icon">
+            <span class="skill-name">Vs code</span>
+          </div>
+          <div class="skill-item">
+            <img src="./logo/git2.png" alt="Git" class="skill-icon">
+            <span class="skill-name">Git</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="contact-card">
+      <div class="contact-desc">
+        <h6>Contact Me</h6>
+      </div>
+      <form id="contact-form" class="contact-form">
+        <input type="text" placeholder="Your name" id="contact-name" class="contact-input" required>
+        <input type="email" placeholder="Your email" id="contact-email" class="contact-input" required>
+        <textarea placeholder="Message" id="contact-message" class="contact-input" required></textarea>
+      </form>
+      <button class="contact-button">Send Message</button>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Charan</p>
+  </footer>
+</body>
+</html>
