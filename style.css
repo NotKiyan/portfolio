@@ -5,6 +5,9 @@
   --bg: #fff;
   --text: #111;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 * { 
   margin: 0; 
@@ -167,7 +170,7 @@ body {
 }
 
 .social-icon img{
-  width: 30px;
+  width: 40px;
   height: auto;
 }
 
@@ -180,15 +183,6 @@ body {
 
 .social-icons li a:hover {
   transform: translateY(-2px);
-}
-
-.social-icons li a img {
-  filter: brightness(0) invert(1);
-  transition: filter 0.3s ease;
-}
-
-.social-icons li a:hover img {
-  filter: brightness(0) saturate(100%) invert(44%) sepia(93%) saturate(1352%) hue-rotate(315deg) brightness(119%) contrast(119%);
 }
 
 .hero-image {
@@ -236,7 +230,7 @@ section h2 {
 #projects {
   background: black;
   color: white;
-  min-height: 70vh;
+  min-height: 80vh;
 }
 
 #projects h2 {
